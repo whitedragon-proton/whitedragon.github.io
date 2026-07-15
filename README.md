@@ -1,3 +1,3 @@
 # WhiteDragon Browser
 
-https://whitedragon-browser.pages.dev/
+[https://whitedragon-browser.pages.dev/]
