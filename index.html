@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whitedragon-one</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #ffffff;
+            color: #111111;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 760px;
+            width: 100%;
+            border-top: 4px solid #111;
+            padding-top: 2.5rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 400;
+            letter-spacing: -0.03em;
+            color: #000;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .sub {
+            font-size: 0.85rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .sub span {
+            color: #333;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #999;
+            margin-bottom: 0.75rem;
+            font-weight: 400;
+        }
+
+        p,
+        li {
+            font-size: 1.05rem;
+            color: #1a1a1a;
+            line-height: 1.8;
+            font-family: 'Courier New', monospace;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 0.3rem 0 0.3rem 1.2rem;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: #ccc;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 1.5rem 0;
+        }
+
+        footer {
+            font-size: 0.7rem;
+            color: #bbb;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 1rem;
+        }
+
+        footer a {
+            color: #555;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2.6rem;
+            }
+            body {
+                padding: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>whitedragon<br />one</h1>
+            <div class="sub"><span>⟡</span> Tools for the free web <span>⟡</span></div>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>about</h2>
+                <p>Built for speed and privacy.</p>
+            </section>
+
+            <section>
+                <h2>what we do</h2>
+                <ul>
+                    <li>develop proxies, browsers and web services</li>
+                </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <section>
+                <h2>contact</h2>
+                <p>whitedragon303@proton.me</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <a href="https://github.com/whitedragon-one">github</a> &nbsp;/&nbsp; <a href="#">twitter</a> &nbsp;/&nbsp; 2026
+        </footer>
+
+    </div>
+
+</body>
+</html>
